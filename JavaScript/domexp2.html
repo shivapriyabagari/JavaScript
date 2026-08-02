@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <input type="text" id="name" placeholder="Enter name"><br><br>
+
+    <button id="upper">Click</button>
+
+    <p id="res">O/P</p>
+
+    <script>
+        // Convert text to uppercase
+        document.getElementById("upper").addEventListener("click", () => {
+            let name = document.getElementById("name").value;
+            document.getElementById("res").innerHTML = name.toUpperCase();
+        });
+
+        // Change button color on mouse over
+        document.getElementById("upper").addEventListener("mouseover", function() {
+            this.style.color = "blue";
+        });
+
+        // Restore button color on mouse out
+        document.getElementById("upper").addEventListener("mouseout", function() {
+            this.style.color = "black";
+        });
+    </script>
+
+</body>
+</html>
+<!-- This is a simple JavaScript project that converts the text entered by
+the user into uppercase letters when the Click button is pressed. -->

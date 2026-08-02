@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="text" id="name" placeholder="Type something">
+    <p id="res"></p>
+    <script>
+        document.getElementById("name").addEventListener("keyup", () => {
+            let name = document.getElementById("name").value;
+            document.getElementById("res").innerHTML = name;
+        });
+    </script>
+</body>
+</html>

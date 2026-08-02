@@ -1,0 +1,74 @@
+JavaScript
+----------
+  1. client side scripting
+      --------------------
+      Validation within the browser(like for typing a email id we need 2 symbols i.e (@,.))-js
+      --This client side scripting is divided into 2 types:
+      internal and external scripting
+      -Internal scripting--->inside body tag
+      <script>
+
+      </script>
+
+      -External scripting--->outside of JavaScript in a separate file instead of inside the HTML file.
+  2. server side scripting
+     ---------------------
+       deal with db (nodejs/expressjs)
+There are 2 types to declare a variable:
+1.let--can change the value of the variable
+2.const--can not change the value of the variable(urls)
+<script>
+            let a =20;
+            console.log(a);
+            a=30;
+            console.log(a)
+            const pi=3.14;
+            console.log(pi)
+            pi=4;
+</script>
+FUNCTION IN JavaScript:
+-----------------------
+
+function funname(parameters){
+    statement
+}
+
+ARROW FUNCTION:
+--------------
+arrow function ==> short form of function
+               ==>mostly used in react
+const add =(a,b) { => }{
+    return a+b;
+}
+s.c
+---
+const add= (a,b)=> a+b
+Object function:
+----------------
+const product={
+                prodname:"pen",
+                prodprice:"40.59",
+                prodquan:5
+            }
+            console.log(product)
+            console.log(product.prodname)
+Array function:
+---------------
+are built-in methods used to create, modify, search, sort, and process arrays.
+forEach,find,through index,filtering..etc
+
+DOM Manipulation:
+----------------
+Document Object Model
+- It is used interact with html to JavaScript
+Pascal case--the first letter of a word must be capital(used in file,class,package)
+camel case--the main word must be capital(used in function or method)
+    -getElementById()---> predefined function
+snake case--in between all the words heppen must be placed(used in variable,folder)
+
+Event listeners:
+-----------------
+event listeners:
+   -click(textbox)
+   -mouseover(mouse)
+   -mouseout(mouse)
